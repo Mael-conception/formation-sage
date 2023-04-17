@@ -1,0 +1,34 @@
+/* 
+
+ - le selecteur : indique quel element html on veut styliser (affecter)
+ - la propriete : le comportement a appliquer
+ - la valeur : precision de la propriete
+
+ des regles css
+
+ + trois type de selecteur :
+    - par balise
+    - par classe : repeter plusieurs fois dans la meme page
+    - par id: doit etre unique sur une page
+
+*/
+
+p {
+    color: red;
+    text-align: right;
+    font-weight: bold;
+}
+
+p {
+    color: orange;
+    text-align: right;
+    font-weight: bold;
+}
+
+#title {
+    font-size: 85px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
