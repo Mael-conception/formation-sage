@@ -13,22 +13,20 @@
 
 */
 
-p {
-    color: red;
-    text-align: right;
-    font-weight: bold;
+#intro {
+    color: gray;
+    font-size: 16px;
 }
 
-p {
-    color: orange;
-    text-align: right;
-    font-weight: bold;
+h3 {
+    text-transform: uppercase;
 }
 
-#title {
-    font-size: 85px;
+.title {
+    text-transform: uppercase;
 }
 
 .paragraph {
-    font-size: 20px;
+    font-size: 16px;
+    text-align: justify;
 }
